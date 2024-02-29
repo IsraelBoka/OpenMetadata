@@ -8,7 +8,7 @@
   "definitions": {
     "operation": {
       "javaType": "org.openmetadata.schema.type.NotificationFilterOperation",
-      "description": "This schema defines all possible filter operations on metadata of entities in OpenMetadata.",
+      "description": "This schema defines all possible filter operations on metadata of entities in ngmKandle.",
       "type": "string",
       "enum": [
         "filterBySource",

@@ -8,7 +8,7 @@
   "definitions": {
     "operation": {
       "javaType": "org.openmetadata.schema.type.MetadataOperation",
-      "description": "This schema defines all possible operations on metadata of entities in OpenMetadata.",
+      "description": "This schema defines all possible operations on metadata of entities in ngmKandle.",
       "type": "string",
       "enum": [
         "All",

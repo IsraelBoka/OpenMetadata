@@ -2,7 +2,7 @@
   "$id": "https://open-metadata.org/schema/events/api/createEventSubscription.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "CreateEventSubscription",
-  "description": "This defines schema for sending alerts for OpenMetadata",
+  "description": "This defines schema for sending alerts for ngmKandle",
   "type": "object",
   "javaType": "org.openmetadata.schema.api.events.CreateEventSubscription",
   "javaInterfaces": ["org.openmetadata.schema.CreateEntity"],

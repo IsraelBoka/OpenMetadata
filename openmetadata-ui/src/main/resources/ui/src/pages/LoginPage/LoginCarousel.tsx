@@ -34,13 +34,6 @@ const LoginCarousel = () => {
               data-testid="carousel-slide-description">
               {t(`message.${data.descriptionKey}`)}
             </p>
-            <img
-              alt="slider"
-              loading="lazy"
-              src={data.image}
-              style={{ display: 'initial' }}
-              width="750px"
-            />
           </div>
         ))}
       </Carousel>

@@ -46,7 +46,7 @@
       "default": true
     },
     "supportsQueryComment": {
-      "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from OpenMetadata.",
+      "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from ngmKandle.",
       "type": "boolean",
       "default": true
     },

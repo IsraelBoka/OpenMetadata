@@ -8,7 +8,7 @@
   "javaInterfaces": ["org.openmetadata.schema.EntityInterface"],
   "definitions": {
     "entityName": {
-      "description": "Name of the property or entity types. Note a property name must be unique for an entity. Property name must follow camelCase naming adopted by openMetadata - must start with lower case with no space, underscore, or dots.",
+      "description": "Name of the property or entity types. Note a property name must be unique for an entity. Property name must follow camelCase naming adopted by ngmKandle- must start with lower case with no space, underscore, or dots.",
       "type": "string",
       "pattern": "(?U)^[\\w]+$"
     },
@@ -32,7 +32,7 @@
       "javaType": "org.openmetadata.schema.entity.type.CustomProperty",
       "properties": {
         "name": {
-          "description": "Name of the entity property. Note a property name must be unique for an entity. Property name must follow camelCase naming adopted by openMetadata - must start with lower case with no space, underscore, or dots.",
+          "description": "Name of the entity property. Note a property name must be unique for an entity. Property name must follow camelCase naming adopted by ngmKandle- must start with lower case with no space, underscore, or dots.",
           "$ref": "#/definitions/entityName"
         },
         "description": {

@@ -12,18 +12,16 @@
  */
 import React, { FC } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { useTranslation } from 'react-i18next';
 
 interface DocumentTitleProps {
   title: string;
 }
 
 const DocumentTitle: FC<DocumentTitleProps> = ({ title }) => {
-  const { t } = useTranslation();
 
   return (
     <Helmet>
-      <title>{`${title} | ${t('label.open-metadata')}`}</title>
+      <title>{`${title} | ngmKandle`}</title>
     </Helmet>
   );
 };

@@ -92,7 +92,7 @@
       "$ref": "../../type/basic.json#/definitions/timestamp"
     },
     "usedBy" : {
-      "description": "List of users who ran the query but does not exist in OpenMetadata.",
+      "description": "List of users who ran the query but does not exist in ngmKandle.",
       "type": "array",
       "items": {
         "type": "string"

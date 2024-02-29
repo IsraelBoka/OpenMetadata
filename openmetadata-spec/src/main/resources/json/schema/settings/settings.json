@@ -8,7 +8,7 @@
   "definitions": {
     "settingType": {
       "javaType": "org.openmetadata.schema.settings.SettingsType",
-      "description": "This schema defines all possible filters enum in OpenMetadata.",
+      "description": "This schema defines all possible filters enum in ngmKandle.",
       "type": "string",
       "enum": [
         "authorizerConfiguration",
@@ -68,9 +68,10 @@
         {
           "$ref": "../configuration/slackAppConfiguration.json"
         }
-        
       ]
     }
   },
-  "required": ["config_type"]
+  "required": [
+    "config_type"
+  ]
 }

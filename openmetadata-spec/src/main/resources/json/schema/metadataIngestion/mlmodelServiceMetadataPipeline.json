@@ -24,7 +24,7 @@
       "title": "ML Model Filter Pattern"
     },
     "markDeletedMlModels": {
-      "description": "Optional configuration to soft delete MlModels in OpenMetadata if the source MlModels are deleted. Also, if the MlModel is deleted, all the associated entities like lineage, etc., with that MlModels will be deleted",
+      "description": "Optional configuration to soft delete MlModels in ngmKandleif the source MlModels are deleted. Also, if the MlModel is deleted, all the associated entities like lineage, etc., with that MlModels will be deleted",
       "type": "boolean",
       "default": true,
       "title": "Mark Deleted ML Models"
