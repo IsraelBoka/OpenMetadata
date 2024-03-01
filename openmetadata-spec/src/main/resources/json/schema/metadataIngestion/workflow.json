@@ -63,7 +63,7 @@
       "additionalProperties": false
     },
     "source": {
-      "description": "Configuration for Source component in ngmKandleIngestion Framework.",
+      "description": "Configuration for Source component in  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {
@@ -86,7 +86,7 @@
       "required": ["type", "sourceConfig"]
     },
     "processor": {
-      "description": "Configuration for Processor Component in the ngmKandleIngestion Framework.",
+      "description": "Configuration for Processor Component in the  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {
@@ -101,7 +101,7 @@
       "required": ["type"]
     },
     "stage": {
-      "description": "Configuration for Stage Component in the ngmKandleIngestion Framework.",
+      "description": "Configuration for Stage Component in the  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {
@@ -116,7 +116,7 @@
       "required": ["type"]
     },
     "sink": {
-      "description": "Configuration for Sink Component in the ngmKandleIngestion Framework.",
+      "description": "Configuration for Sink Component in the  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {
@@ -131,7 +131,7 @@
       "required": ["type"]
     },
     "bulkSink": {
-      "description": "Configuration for BulkSink Component in the ngmKandleIngestion Framework.",
+      "description": "Configuration for BulkSink Component in the  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {

@@ -7,7 +7,7 @@
   "javaType": "org.openmetadata.schema.api.configuration.pipelineServiceClient.PipelineServiceClientConfiguration",
   "properties": {
     "enabled": {
-      "description": "Flags if the ingestion from the ngmKandleUI is enabled. If ingesting externally, we can set this value to false to not check the Pipeline Service Client component health.",
+      "description": "Flags if the ingestion from the  ngmedsm UI is enabled. If ingesting externally, we can set this value to false to not check the Pipeline Service Client component health.",
       "type": "boolean",
       "default": true
     },
@@ -38,11 +38,11 @@
       "type": "string"
     },
     "verifySSL": {
-      "description": "Client SSL verification policy when connecting to the ngmKandleserver: no-ssl, ignore, validate.",
+      "description": "Client SSL verification policy when connecting to the  ngmedsm server: no-ssl, ignore, validate.",
       "$ref": "../security/ssl/verifySSLConfig.json#/definitions/verifySSL"
     },
     "sslConfig": {
-      "description": "OpenMetadata Client SSL configuration. This SSL information is about the ngmKandleserver. It will be picked up from the pipelineServiceClient to use/ignore SSL when connecting to the ngmKandleserver.",
+      "description": "OpenMetadata Client SSL configuration. This SSL information is about the  ngmedsm server. It will be picked up from the pipelineServiceClient to use/ignore SSL when connecting to the  ngmedsm server.",
       "$ref": "../security/ssl/verifySSLConfig.json#/definitions/sslConfig"
     },
     "secretsManagerLoader": {
@@ -50,7 +50,7 @@
       "default": "noop"
     },
     "authProvider": {
-      "description": "Auth Provider with which ngmKandleservice configured with.",
+      "description": "Auth Provider with which  ngmedsm service configured with.",
       "$ref": "../entity/services/connections/metadata/openMetadataConnection.json#/definitions/authProvider"
     },
     "authConfig": {

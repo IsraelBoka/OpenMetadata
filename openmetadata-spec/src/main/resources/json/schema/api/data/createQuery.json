@@ -58,7 +58,7 @@
       }
     },
     "usedBy" : {
-      "description": "List of users who ran the query but does not exist in ngmKandle.",
+      "description": "List of users who ran the query but does not exist in  ngmedsm .",
       "type": "array",
       "items": {
         "type": "string"

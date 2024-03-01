@@ -21,7 +21,7 @@
     },
     "authProvider": {
       "javaType": "org.openmetadata.schema.services.connections.metadata.AuthProvider",
-      "description": "OpenMetadata Server Authentication Provider. Make sure configure same auth providers as the one configured on ngmKandleserver.",
+      "description": "OpenMetadata Server Authentication Provider. Make sure configure same auth providers as the one configured on  ngmedsm server.",
       "type": "string",
       "enum": [
         "basic",
@@ -40,7 +40,7 @@
   },
   "properties": {
     "clusterName": {
-      "description": "Cluster name to differentiate ngmKandleServer instance",
+      "description": "Cluster name to differentiate  ngmedsm Server instance",
       "type": "string",
       "default": "openmetadata"
     },
@@ -138,7 +138,7 @@
       "default": true
     },
     "enableVersionValidation": {
-      "description": "Validate ngmKandleServer & Client Version.",
+      "description": "Validate  ngmedsm Server & Client Version.",
       "type": "boolean",
       "default": true
     },
@@ -168,7 +168,7 @@
       "default": true
     },
     "elasticsSearch": {
-      "description": "Configuration for Sink Component in the ngmKandleIngestion Framework.",
+      "description": "Configuration for Sink Component in the  ngmedsm Ingestion Framework.",
       "type": "object",
       "properties": {
         "type": {

@@ -1,7 +1,7 @@
 {
   "name": "OpenMetadata",
   "displayName": "OpenMetadata Service",
-  "description": "Service Used for creating ngmKandleIngestion Pipelines.",
+  "description": "Service Used for creating  ngmedsm Ingestion Pipelines.",
   "serviceType": "OpenMetadata",
   "provider": "system"
 }

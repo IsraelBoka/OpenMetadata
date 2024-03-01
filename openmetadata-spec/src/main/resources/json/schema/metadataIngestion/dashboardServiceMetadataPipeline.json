@@ -53,13 +53,13 @@
       "default": false
     },
     "markDeletedDashboards": {
-      "description": "Optional configuration to soft delete dashboards in ngmKandleif the source dashboards are deleted. Also, if the dashboard is deleted, all the associated entities like lineage, etc., with that dashboard will be deleted",
+      "description": "Optional configuration to soft delete dashboards in  ngmedsm if the source dashboards are deleted. Also, if the dashboard is deleted, all the associated entities like lineage, etc., with that dashboard will be deleted",
       "type": "boolean",
       "default": true,
       "title": "Mark Deleted Dashboards"
     },
     "markDeletedDataModels": {
-      "description": "Optional configuration to soft delete data models in ngmKandleif the source data models are deleted. Also, if the data models is deleted, all the associated entities like lineage, etc., with that data models will be deleted",
+      "description": "Optional configuration to soft delete data models in  ngmedsm if the source data models are deleted. Also, if the data models is deleted, all the associated entities like lineage, etc., with that data models will be deleted",
       "type": "boolean",
       "default": true,
       "title": "Mark Deleted Data Models"

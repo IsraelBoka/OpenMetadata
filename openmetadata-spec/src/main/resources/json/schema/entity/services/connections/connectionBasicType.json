@@ -46,7 +46,7 @@
       "default": true
     },
     "supportsQueryComment": {
-      "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from ngmKandle.",
+      "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from  ngmedsm .",
       "type": "boolean",
       "default": true
     },

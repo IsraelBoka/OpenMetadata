@@ -8,7 +8,7 @@
   "properties": {
     "workflowConfig": {
       "$ref": "workflow.json#/definitions/workflowConfig",
-      "description": "General Workflow configuration, such as the ngmKandleserver connection and logging level"
+      "description": "General Workflow configuration, such as the  ngmedsm server connection and logging level"
     },
     "sourcePythonClass": {
       "description": "Source Python Class Name to run the application",

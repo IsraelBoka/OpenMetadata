@@ -2,7 +2,7 @@
   "$id": "https://open-metadata.org/schema/entity/services/connections/messaging/customMessagingConnection.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "CustomMessagingConnection",
-  "description": "Custom Messaging Service Connection to build a source that is not supported by ngmKandleyet.",
+  "description": "Custom Messaging Service Connection to build a source that is not supported by  ngmedsm yet.",
   "type": "object",
   "javaType": "org.openmetadata.schema.services.connections.messaging.CustomMessagingConnection",
   "definitions": {

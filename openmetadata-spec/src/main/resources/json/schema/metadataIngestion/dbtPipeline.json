@@ -55,7 +55,7 @@
     },
     "dbtClassificationName": {
       "title": "dbt Classification Name",
-      "description": "Custom ngmKandleClassification name for dbt tags.",
+      "description": "Custom  ngmedsm Classification name for dbt tags.",
       "type": "string",
       "default": "dbtTags"
     },

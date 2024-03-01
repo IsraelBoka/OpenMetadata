@@ -53,7 +53,7 @@
       ]
     },
     "markDeletedContainers": {
-      "description": "Optional configuration to soft delete containers in ngmKandleif the source containers are deleted. Also, if the topic is deleted, all the associated entities with that containers will be deleted",
+      "description": "Optional configuration to soft delete containers in  ngmedsm if the source containers are deleted. Also, if the topic is deleted, all the associated entities with that containers will be deleted",
       "type": "boolean",
       "default": true,
       "title": "Mark Deleted Containers"

@@ -21,7 +21,7 @@ const DocumentTitle: FC<DocumentTitleProps> = ({ title }) => {
 
   return (
     <Helmet>
-      <title>{`${title} | ngmKandle`}</title>
+      <title>{`${title} | ngmEdsm`}</title>
     </Helmet>
   );
 };

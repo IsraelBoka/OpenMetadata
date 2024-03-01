@@ -21,7 +21,7 @@
           "default": null
         },
         "accessedByAProcess": {
-          "description": "Any process that accessed the data asset that is not captured in ngmKandle.",
+          "description": "Any process that accessed the data asset that is not captured in  ngmedsm .",
           "type": "string",
           "default": null
         }

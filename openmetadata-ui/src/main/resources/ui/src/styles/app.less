@@ -20,7 +20,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: @body-bg-color;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  /* Changed font family to Segoe UI like datahub */
   font-feature-settings: normal !important;
 }
 
@@ -105,6 +106,7 @@ a[href].link-text-grey,
     color: @text-color;
     text-decoration: underline;
   }
+
   &:focus {
     color: @text-color;
     text-decoration: underline;
@@ -124,9 +126,11 @@ a[href].link-text-grey,
 .text-center {
   text-align: center;
 }
+
 .text-left {
   text-align: left;
 }
+
 .text-right {
   text-align: right;
 }
@@ -145,30 +149,39 @@ a[href].link-text-grey,
 .no-border {
   border: none;
 }
+
 .border {
   border: @global-border;
 }
+
 .border-1 {
   border-width: 1px;
 }
+
 .border-l {
   border-left-width: 1px;
 }
+
 .border-l-2 {
   border-left: 2px;
 }
+
 .border-t-0 {
   border-top-width: 0px;
 }
+
 .border-main {
   border-color: @border-color;
 }
+
 .border-primary {
   border-color: @primary-color;
 }
+
 .border-gray {
   border-color: @border-color;
 }
+
 .border-light-gray {
   border-color: @light-border-color;
 }
@@ -200,6 +213,7 @@ a[href].link-text-grey,
 .rounded-4 {
   border-radius: @border-radius-base;
 }
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -207,6 +221,7 @@ a[href].link-text-grey,
 .rounded-6 {
   border-radius: 6px;
 }
+
 .rounded-12 {
   border-radius: 12px;
 }
@@ -216,6 +231,7 @@ a[href].link-text-grey,
 .break-all {
   word-break: break-all;
 }
+
 .break-word {
   word-break: break-word;
 }
@@ -243,27 +259,35 @@ a[href].link-text-grey,
   margin-right: auto;
   margin-left: auto;
 }
+
 .bg-body-main {
   background: @body-bg-color;
 }
+
 .bg-primary-lite {
   background: @primary-color-hover;
 }
+
 .bg-primary {
   background: @primary-color;
 }
+
 .bg-primary-hover-lite {
   background-color: @primary-color-hover;
 }
+
 .bg-grey {
   background-color: @border-color;
 }
+
 .bg-grey-1 {
   background-color: @grey-1;
 }
+
 .bg-grey-2 {
   background-color: @grey-2;
 }
+
 .bg-grey-4 {
   background-color: @grey-4;
 }
@@ -275,6 +299,7 @@ a[href].link-text-grey,
 .bg-white {
   background-color: @white;
 }
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -293,9 +318,11 @@ a[href].link-text-grey,
 .shadow-custom {
   box-shadow: 1px 1px 8px rgb(0 0 0 / 6%);
 }
+
 .card-box-shadow {
   box-shadow: rgba(0, 0, 0, 0.06) 1px 1px 8px;
 }
+
 .shadow-base {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
@@ -306,6 +333,7 @@ a[href].link-text-grey,
     cursor: pointer;
   }
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -341,6 +369,7 @@ a[href].link-text-grey,
 .transform-180 {
   transform: rotate(180deg);
 }
+
 .transform-90 {
   transform: rotate(90deg);
 }
@@ -354,9 +383,11 @@ a[href].link-text-grey,
 .z-5 {
   z-index: 5;
 }
+
 .z-10 {
   z-index: 10;
 }
+
 .z-400 {
   z-index: 400;
 }
@@ -390,12 +421,15 @@ a[href].link-text-grey,
 .opacity-0 {
   opacity: 0;
 }
+
 .opacity-50 {
   opacity: 0.5;
 }
+
 .opacity-60 {
   opacity: 0.6;
 }
+
 .opacity-100 {
   opacity: 1;
 }
@@ -417,6 +451,7 @@ a[href].link-text-grey,
     opacity: 0;
     transition: 0.3s ease-in;
   }
+
   &:hover {
     .hover-cell-icon {
       opacity: 100;
@@ -464,14 +499,17 @@ a[href].link-text-grey,
 
 .breadcrumb-item {
   font-size: 12px;
+
   .link-title {
     font-size: inherit !important;
     color: @text-grey-muted !important;
   }
+
   .link-title:hover {
     color: @primary-color !important;
     text-decoration: none !important;
   }
+
   .link-title.inactive-link:hover {
     color: @text-grey-muted !important;
   }
@@ -482,9 +520,8 @@ a[href].link-text-grey,
 .multiple-label-field label {
   align-items: flex-start;
 }
-.multiple-label-field
-  .ant-form-item-label
-  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+
+.multiple-label-field .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
   line-height: 24px;
 }
 
@@ -501,6 +538,7 @@ a[href].link-text-grey,
 
 .no-scrollbar {
   scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -516,7 +554,7 @@ a[href].link-text-grey,
 }
 
 /* Tabs */
-.ant-tabs-top > .ant-tabs-nav::before {
+.ant-tabs-top>.ant-tabs-nav::before {
   border-color: @border-color;
 }
 
@@ -527,6 +565,7 @@ a[href].link-text-grey,
     padding: 0 20px;
   }
 }
+
 .entity-tag-right-panel-container {
   height: @entity-details-tab-height;
   overflow-y: auto;
@@ -553,6 +592,7 @@ a[href].link-text-grey,
   background: @success-background-color;
   width: fit-content;
   color: @success-color;
+
   * {
     color: @success-color;
   }
@@ -562,6 +602,7 @@ a[href].link-text-grey,
   text-decoration: line-through;
   width: fit-content;
   color: @text-grey-muted;
+
   * {
     color: @text-grey-muted;
   }
@@ -594,7 +635,8 @@ a[href].link-text-grey,
 }
 
 .activity-feed-card-text pre {
-  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
 }
 
 .table-query-editor pre.CodeMirror-line {
@@ -610,11 +652,11 @@ a[href].link-text-grey,
   margin-top: 8px;
 }
 
-.ant-tabs-description > .ant-tabs-nav {
+.ant-tabs-description>.ant-tabs-nav {
   margin-bottom: 0px;
 }
 
-.ant-tabs-custom-threadpanel > .ant-tabs-nav > .ant-tabs-nav-wrap {
+.ant-tabs-custom-threadpanel>.ant-tabs-nav>.ant-tabs-nav-wrap {
   padding: 0px 16px;
 }
 
@@ -622,9 +664,11 @@ a[href].link-text-grey,
 .react-flow {
   height: 110%;
 }
+
 .react-flow__node {
   min-width: max-content;
 }
+
 .react-flow__edge {
   pointer-events: all;
   cursor: pointer;
@@ -634,7 +678,7 @@ a[href].link-text-grey,
   stroke: @primary-color;
 }
 
-.react-flow__attribution > a {
+.react-flow__attribution>a {
   color: @background-color !important;
 }
 
@@ -646,13 +690,13 @@ a[href].link-text-grey,
 
 // ****  Feed message  ******
 
-.feed-message > div > p:last-child {
+.feed-message>div>p:last-child {
   margin-bottom: 0px;
 }
 
 // **********  Sample Data  ***********
 
-.topic-sample-data > .CodeMirror {
+.topic-sample-data>.CodeMirror {
   height: auto !important;
 }
 
@@ -666,7 +710,7 @@ a[href].link-text-grey,
   -webkit-box-orient: vertical;
 }
 
-.custom-entity-schema > .CodeMirror {
+.custom-entity-schema>.CodeMirror {
   height: 70vh;
 }
 
@@ -726,7 +770,7 @@ a[href].link-text-grey,
   }
 }
 
-.data-asset-icon > svg {
+.data-asset-icon>svg {
   width: 20px;
   height: 20px;
 }

@@ -237,7 +237,7 @@
             },
             "database": {
               "title": "Database",
-              "description": "Database of the data source. This is optional parameter, if you would like to restrict the metadata reading to a single database. When left blank, ngmKandleIngestion attempts to scan all the databases.",
+              "description": "Database of the data source. This is optional parameter, if you would like to restrict the metadata reading to a single database. When left blank,  ngmedsm Ingestion attempts to scan all the databases.",
               "type": "string"
             },
             "sslMode": {
@@ -275,7 +275,7 @@
             },
             "classificationName": {
               "title": "Classification Name",
-              "description": "Custom ngmKandleClassification name for Postgres policy tags.",
+              "description": "Custom  ngmedsm Classification name for Postgres policy tags.",
               "type": "string",
               "default": "PostgresPolicyTags"
             },
@@ -338,7 +338,7 @@
             },
             "supportsQueryComment": {
               "title": "Supports Query Comment",
-              "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from ngmKandle.",
+              "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from  ngmedsm .",
               "type": "boolean",
               "default": true
             }
@@ -485,12 +485,12 @@
             },
             "databaseName": {
               "title": "Database Name",
-              "description": "Optional name to give to the database in ngmKandle. If left blank, we will use default as the database name.",
+              "description": "Optional name to give to the database in  ngmedsm . If left blank, we will use default as the database name.",
               "type": "string"
             },
             "databaseSchema": {
               "title": "Database Schema",
-              "description": "Database Schema of the data source. This is optional parameter, if you would like to restrict the metadata reading to a single schema. When left blank, ngmKandleIngestion attempts to scan all the schemas.",
+              "description": "Database Schema of the data source. This is optional parameter, if you would like to restrict the metadata reading to a single schema. When left blank,  ngmedsm Ingestion attempts to scan all the schemas.",
               "type": "string"
             },
             "sslCA": {
@@ -545,7 +545,7 @@
             },
             "supportsQueryComment": {
               "title": "Supports Query Comment",
-              "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from ngmKandle.",
+              "description": "For Database Services using SQLAlchemy, True to enable running a comment for all queries run from  ngmedsm .",
               "type": "boolean",
               "default": true
             }

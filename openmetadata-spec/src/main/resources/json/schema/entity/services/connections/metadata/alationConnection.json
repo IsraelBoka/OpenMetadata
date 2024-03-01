@@ -65,7 +65,7 @@
       },
       "alationTagClassificationName": {
         "title": "Alation Tags Classification Name",
-        "description": "Custom ngmKandleClassification name for alation tags.",
+        "description": "Custom  ngmedsm Classification name for alation tags.",
         "type": "string",
         "default": "alationTags"
       },
