@@ -127,7 +127,7 @@ class MetabaseClient:
                 # Small hack needed to support Metabase versions older than 0.48
                 # https://www.metabase.com/releases/metabase-48#fyi--breaking-changes
                 if "ordered_cards" in resp_dashboard:
-                    resp_dashboard["dashcards"] = resp_dashboard["dashcards"]
+                    resp_dashboard["dashcards"] = resp_dashboard["ordered_cards"]
                 return MetabaseDashboardDetails(**resp_dashboard)
         except Exception:
             logger.debug(traceback.format_exc())
